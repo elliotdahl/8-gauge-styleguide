@@ -1,0 +1,6 @@
+---
+applications:
+- name: 8gauge
+  memory: 256M
+  path: ./styleguide-dist/
+  buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git

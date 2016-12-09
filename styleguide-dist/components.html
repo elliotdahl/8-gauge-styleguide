@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>8 Gauge Styleguide | components</title>
+    <link rel="shortcut icon" href="static/favicon.ico" />
+
+    <!-- Search engines -->
+    <meta name="description" content="8 Gauge Styleguide">
+    <!-- Google Plus -->
+    <!-- Update your html tag to include the itemscope and itemtype attributes. -->
+    <!-- html itemscope itemtype="http://schema.org/{CONTENT_TYPE}" -->
+    <!-- <meta itemprop="image" content="http://8-gauge-styleguide.cfapps.io/static/favicon.ico"> -->
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="8 Gauge Styleguide">
+    <meta name="twitter:site" content="@elliotdahl">
+    <meta name="twitter:title" content="8 Gauge Styleguide">
+    <meta name="twitter:description" content="8 Gauge Styleguide">
+    <meta name="twitter:creator" content="@elliotdahl">
+    <meta name="twitter:image:src" content="http://8-gauge-styleguide.cfapps.io/static/favicon.ico">
+    <!-- Open Graph General (Facebook & Pinterest) -->
+    <meta property="og:url" content="http://8-gauge-styleguide.cfapps.io">
+    <meta property="og:title" content="8 Gauge Styleguide">
+    <meta property="og:description" content="8 Gauge Styleguide">
+    <meta property="og:site_name" content="8 Gauge Styleguide">
+    <meta property="og:image" content="http://8-gauge-styleguide.cfapps.io/static/favicon.png">
+    <meta property="og:type" content="article">
+    <meta property="og:locale" content="en_us">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+    <!-- Styleguide CSS -->
+    <link rel="stylesheet" href="static/css/styleguide.css">
+    <link rel="stylesheet" href="static/css/doc.css">
+    <link rel="stylesheet" href="static/css/github.css">
+
+    <!-- CSS to be documented -->
+    <link rel="stylesheet" href="built-styles/css/styles.css">
+
+</head>
+  <body class="">
+    <nav class="side-nav">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="media">
+              <div class="media-left media-middle">
+                <img class="styleguide-logo" src="static/acme-logo.svg" alt="">
+              </div>
+              <div class="media-body media-middle">
+                <h1 class="h4 em-mid type-light m-y-0">8 Gauge Styleguide</h1>
+                <h2 class="h6 em-normal type-light m-t-1">by @elliotdahl</h2>
+              </div>
+              <div class="media-right media-middle">
+                <button id="menuToggle" class="btn btn-hamburger p-a-0 hidden-md-up">
+                  <svg class="hamburger" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve"><path d="M19,33h62c1.104,0,2-0.896,2-2s-0.896-2-2-2H19c-1.104,0-2,0.896-2,2S17.896,33,19,33z"/><path d="M19,53h62c1.104,0,2-0.896,2-2s-0.896-2-2-2H19c-1.104,0-2,0.896-2,2S17.896,53,19,53z"/><path d="M19,73h62c1.104,0,2-0.896,2-2s-0.896-2-2-2H19c-1.104,0-2,0.896-2,2S17.896,73,19,73z"/></svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <nav class="category-navigation">
+          <div class="row">
+            <div class="col-sm-12">
+              <ul class="list-unstyled">
+                <li><a class="btn btn-block btn-nav m-y-1 " href="index.html">Intro</a></li>
+                <li><a class="btn btn-block btn-nav m-y-1 " href="colors.html">Colors</a></li>
+                <li><a class="btn btn-block btn-nav m-y-1 " href="typography.html">Typography</a></li>
+                <li><a class="btn btn-block btn-nav m-y-1 active" href="components.html
+                ">Components</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </nav>
+
+
+    <main class="styleguide-content">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12">
+            
+
+            <div class="styleguide-inner">
+<h1 id="buttons" class="styleguide">Buttons</h1>
+<div class="codeExample">
+  <div class="exampleOutput">
+    <button class="btn-default">Default</button>
+<button class="btn-default-alt">Default Alt</button>
+<button>Flat</button>
+
+  </div>
+  <div class="codeBlock">
+    <div class="highlight">
+      <pre><span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"btn-default"</span><span class="nt">&gt;</span>Default<span class="nt">&lt;/button&gt;</span>
+<span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"btn-default-alt"</span><span class="nt">&gt;</span>Default Alt<span class="nt">&lt;/button&gt;</span>
+<span class="nt">&lt;button&gt;</span>Flat<span class="nt">&lt;/button&gt;</span></pre>
+    </div>
+  </div>
+</div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <p>
+          Made with
+          <i class="fa fa-heart text-danger"></i>
+          in SF
+      </footer>
+    </div>
+  </main>
+
+  <!-- component js and init scripts -->
+  <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+  <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+  <script src="https://npmcdn.com/bootstrap@4.0.0-alpha.5/dist/js/bootstrap.min.js"></script>
+  <script src="static/js/zenscroll-min.js"></script>
+  <script src="static/js/gumshoe-min.js"></script>
+  <script src="static/js/scripts.js"></script>
+</body>
+</html>

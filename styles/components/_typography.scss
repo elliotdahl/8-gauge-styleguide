@@ -1,0 +1,177 @@
+html {
+    font-size: 8px;
+}
+
+body {
+    font-family: $font-family-sans-serif;
+    font-size:16px;
+    /* currently ems cause chrome bug misinterpreting rems on body element */
+    line-height: 24px;
+    font-weight: 400;
+    color: $dark-2;
+}
+
+//Font bug fix
+input, textarea, keygen, select, button {
+    font-family: $font-family-sans-serif;
+}
+
+.page {
+    font-size: 14px;
+}
+
+
+/* Font Family
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.raleway {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+    //margin-bottom: ($base-unit*2);
+    font-weight: 400;
+    //line-height: 1;
+}
+
+h1 {
+    font-size: 32px;
+    //line-height: 32px;
+    line-height: 1;
+    letter-spacing: -.5px;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -.5px;
+}
+
+h3 {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+h4 {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+h5 {
+    font-size: 16px;
+    line-height: 24px;
+    //letter-spacing: -.05rem;
+}
+
+h6 {
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: .25px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 0;
+    margin-bottom: ($base-unit*2)
+}
+
+
+
+/* Sizes
+-------------------------------------------*/
+
+.type-xs {
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: .25px;
+}
+
+.type-sm {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.type-md {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.type-lg {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+//Ellipsis
+.type-ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+.type-break-word {
+    word-wrap: break-word;
+}
+
+
+/* Alignment
+-------------------------------------------*/
+
+.txt-c {
+    text-align: center;
+}
+
+.txt-r {
+    text-align: right;
+}
+
+.txt-l {
+    text-align: left;
+}
+
+
+/* Weights
+-------------------------------------------*/
+
+.em-low {
+    font-weight: 300;
+}
+
+.em-default {
+    font-weight: 400;
+}
+
+.em-high {
+    font-weight: 600;
+}
+
+.em-max {
+    font-weight: 700;
+}
+
+// .em-ultra {
+//     font-weight: 900
+// }
+
+.em-alt {
+    text-transform: uppercase;
+}
+
+
+/* Font Color
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.type-white {
+    color: #fff !important;
+}
+

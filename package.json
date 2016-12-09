@@ -1,0 +1,33 @@
+{
+  "name": "8-gauge-styleguide",
+  "version": "1.0.0",
+  "author": "Elliot Dahl<elliotdahldesigns@gmail.com> (http://www.elliotdahl.com)",
+  "contributors": [
+    "Paul Farino <paul.farino1@gmail.com> (http://www.paulfarino.com)"
+  ],
+  "description": "8 Gauge Styleguide",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "heroku-prebuild": "npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elliotdahl/8-gauge-styleguide"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elliotdahl/8-gauge-styleguide"
+  },
+  "homepage": "http://8gauge.cfapps.io/",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-open": "^2.0.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-shell": "^0.5.2",
+    "gulp-sourcemaps": "^1.6.0"
+  },
+  "dependencies": {}
+}
